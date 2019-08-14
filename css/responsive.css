@@ -1,0 +1,42 @@
+@media only screen and (min-width: 1281px) {
+
+}
+@media only screen and (min-width: 1281px) and (max-width: 1600px) {
+
+}
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+
+}
+
+@media only screen and (max-width: 319px) {
+    /* landing page  */
+nav{height: 50px; background-color: #24345c;}
+.nav-logo{height: 30px;width: auto;}
+nav ul{height: 150px;width: 100%;margin-left: 0px;display: block; margin-top: 50px;}
+nav li{line-height: 50px !important; font-size: 12px !important; margin-left: 0px !important;background-color: #24345c;width: 100%;text-align: center;             }
+.log-in-lang-select{height: 100px;width: 100%;float: none;background-color: #24345c;margin-top: -44px;}
+.log-in-lang-select p{display: block;font-size: 12px;line-height: 50px;text-align: center;}
+.login-icon{position: relative;float: left;margin-top: -30px;margin-left: 170px; height: 14px;}
+ 
+.landing-page{height: 620px;}
+.landing-page h1{font-size: 20px;margin-top: 120px;line-height: 25px;}
+.property-search-holder{width: 260px;height: 450px;margin-top: 130px;}
+.property-location{width: 242px;}
+.property-type{float: left; width: 260px; margin-left: 0px; margin-top: 20px;}
+.property-search-btn{float: left; width: 260px; margin-top: 20px; margin-left: 0px;}
+    /* landing page  */
+}
+
