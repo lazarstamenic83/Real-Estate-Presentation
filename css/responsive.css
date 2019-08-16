@@ -1,5 +1,4 @@
 @media only screen and (min-width: 1281px) {
-
 }
 @media only screen and (min-width: 1281px) and (max-width: 1600px) {
 
@@ -23,20 +22,79 @@
 
 @media only screen and (max-width: 319px) {
     /* landing page  */
-nav{height: 50px; background-color: #24345c;}
+nav{height: 50px; background-color: #24345c; overflow: hidden; transition-duration: 0.3s;}
 .nav-logo{height: 30px;width: auto;}
-nav ul{height: 150px;width: 100%;margin-left: 0px;display: block; margin-top: 50px;}
-nav li{line-height: 50px !important; font-size: 12px !important; margin-left: 0px !important;background-color: #24345c;width: 100%;text-align: center;             }
-.log-in-lang-select{height: 100px;width: 100%;float: none;background-color: #24345c;margin-top: -44px;}
-.log-in-lang-select p{display: block;font-size: 12px;line-height: 50px;text-align: center;}
+nav ul{height: 100px;width: 100%;margin-left: 0px;display: block; margin-top: 50px;}
+nav li{line-height: 50px !important; font-size: 14px !important; margin-left: 0px !important;background-color: #24345c;width: 100%;text-align: center;}
+.log-in-lang-select{height: 100px;width: 100%;float: left;margin-top: 0px; }
+.log-in-lang-select p{display: block;font-size: 14px;line-height: 50px;text-align: center;}
 .login-icon{position: relative;float: left;margin-top: -30px;margin-left: 170px; height: 14px;}
- 
+.flag{position: relative;cursor: pointer;margin-left: 0px;margin: auto;display: block; margin-top: 14px;}
+.arrow-down{position: relative;margin-top: -20px;margin-right: 0px;float: right;}
+.flag-arrow-holder{height: 50px;width: 100px;margin: auto;overflow: hidden; margin-top: 0px !important;}
+#nav-icon1{display: block;}
 .landing-page{height: 620px;}
 .landing-page h1{font-size: 20px;margin-top: 120px;line-height: 25px;}
-.property-search-holder{width: 260px;height: 450px;margin-top: 130px;}
+.property-search-holder{width: 260px;height: 450px;margin-top: 80px;}
 .property-location{width: 242px;}
-.property-type{float: left; width: 260px; margin-left: 0px; margin-top: 20px;}
-.property-search-btn{float: left; width: 260px; margin-top: 20px; margin-left: 0px;}
-    /* landing page  */
-}
+.property-type{float: left; width: 260px; margin-left: 0px; margin-top: 10px;}
+.property-search-btn{float: left; width: 260px; margin-top: 10px; margin-left: 0px;}
+.property-list-btn{display: block;height: 30px;width: 150px;margin: auto; cursor: pointer;position: relative;overflow: hidden;margin-top: 50px;}
+.property-list-btn p{font-size: 14px; line-height: 30px;}
+  /* landing page  */
 
+  /* about section */
+.about-section{height: 630px;}
+.about-text-holder{width: 100%;height: 450px;margin-top: 80px;}
+.about-text-holder h1{font-size: 18px;text-align: left;line-height: 25px; width: 200px; margin-left: 20px;}
+.about-text-holder p{font-size: 14px; text-align: left; margin-top: 20px; line-height: 25px; width: 250px; margin-left: 20px;}
+.about-btn{width: 220px;height: 50px;margin-top: 20px !important;margin: auto;}
+.about-btn p{font-size: 16px;text-align: center;line-height: 50px;margin-left: -18px;}
+  /* about section  */
+
+  /* advertise section  */
+.advertise-section{height: 900px;}
+.commercial-holder{height: 250px;width: 270px;margin-top: 70px;}
+.advertise-holder{width: 260px;height: 500px;margin: auto; margin-top: 80px;}
+.advertise-holder .property-list-btn{height: 50px;width: 220px;border-radius: 30px;margin-left:20px} 
+.advertise-holder .property-list-btn p{line-height: 50px;}
+.advertise-holder img{height: 160px;}
+.advertise-text{width: 260px;height: 340px;}
+.advertise-text h1{font-size: 18px;line-height: 24px;}
+.advertise-text h2{font-size: 14px;margin-top: 20px;}
+.advertise-text h3{font-size: 14px;margin-top: 20px;line-height: 20px;}
+  /* advertise section  */   
+  
+   /* contact section  */
+
+.contact-section{height: 600px;}
+.contact-text-holder{width: 260px;height: 600px;margin-top: 20px;}
+.contact-text-holder div{float: none;height: auto;margin-top: 0px;}
+.contact-text-holder .property-list-btn p{font-size: 14px;margin-top: 0px;margin-left: 0px;}
+.pricing{width: 100%;border-right: none;}
+.pricing p{margin-left: 20px;}
+.blog{width: 100%;border-right: none;border-bottom: 1px solid #6d7893;height: 200px !important;}
+.blog p{margin-left: 20px;}
+.location{width: 260px;border-right: none;transition-duration: 0.2s; overflow: hidden; height: 150px !important;}
+.location h1{font-size: 14px;margin-top: 30px;margin-left: 20px;letter-spacing: 0px;}
+.location h2{font-size: 13px;margin-left: 40px;}
+.location img{margin-left: -20px;}
+.location p{font-size: 13px;margin-left: 20px;}
+.advertise-property{width:260px;}
+.advertise-property .property-list-btn{position: absolute;margin-top: -280px;margin-left: 20px;}          
+.advertise-property .property-list-btn p{line-height: 40px;}
+.advertise-paragraph{display: none;}
+.social-links{position: absolute; margin-top: -210px !important; margin-left: 10px;}
+.social-links img{margin-left: 10px;}
+
+ /* contact section  */
+
+ /* footer  */
+footer{height: 130px; margin-top: -130px;}
+.footer-text{width: 260px;height: 130px;}
+.footer-text p:nth-child(2){margin-left: 0px;}
+.footer-text p:nth-child(1){margin-left: 0px;position: absolute;margin-top: 35px;}
+.footer-text p:nth-child(3){float: none;border-top: 1px solid #6d7893; margin-top: 40px;}
+.footer-text p{display: block;font-size: 12px;line-height: 40px;text-align: left;}
+/* footer  */
+}

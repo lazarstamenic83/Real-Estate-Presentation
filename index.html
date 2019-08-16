@@ -28,6 +28,13 @@
 <body>
     <!-- landing page -->
     <nav>
+        <!-- burger -->
+		<div id="nav-icon1">
+                <span></span>
+                <span></span>
+                <span></span>
+        </div>
+        <!-- burger -->
         <a href="index.html"><img src="img/logo.svg" alt="logo" class="nav-logo"></a>
         <ul>
             <li>Why Novogradnja</li>
@@ -40,8 +47,10 @@
         <div class="log-in-lang-select">
             <p>Log in</p>
             <img src="img/login.svg" alt="login-icon" class="login-icon">
-            <img src="img/united-kingdom.svg" alt="flag" class="flag">
-            <img src="img/arrow.svg" alt="arrow-down" class="arrow-down">
+            <div class="flag-arrow-holder">
+                <img src="img/united-kingdom.svg" alt="flag" class="flag">
+                <img src="img/arrow.png" alt="arrow-down" class="arrow-down">
+            </div>
         </div>
     </nav>
 
@@ -126,7 +135,7 @@
                 <p>Sat: 10:00 - 16:00</p>
             </div>
             <div class="advertise-property">
-                <p>Have a property that you<br>  would like to advertise?</p>
+                <p class="advertise-paragraph">Have a property that you<br>  would like to advertise?</p>
                 <div class="property-list-btn">
                     <p>List your property</p>
                 </div>
@@ -144,7 +153,6 @@
     <!-- footer  -->
     <footer>
         <div class="footer-text">
-            <!-- monserat lajt -->
             <p>Privacy Policy</p>
             <p>General Terms and Conditions</p>
             <p>All rights reserved Novogradnja</p>
